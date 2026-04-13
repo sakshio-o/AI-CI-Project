@@ -10,7 +10,7 @@ pipeline {
 
         stage('Run Tests') {
             steps {
-                bat 'python3 -m unittest'
+                bat 'python -m unittest'
             }
         }
     }
